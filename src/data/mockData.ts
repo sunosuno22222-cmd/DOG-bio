@@ -1,5 +1,8 @@
 import { Track, ArtistInfo, MemeSticker } from '../types';
 
+const PROFILE_IMAGE_URL = 'https://raw.githubusercontent.com/b9791076-design/ICONS/main/90d59cc1dbdf4afacad1a14104a3262e.jpg';
+const COVER_IMAGE_URL = 'https://raw.githubusercontent.com/b9791076-design/ICONS/main/artworks-BKh7nEA1d6IFIaqk-DKZyLw-t500x500.jpg';
+
 export const INITIAL_TRACKS: Track[] = [
   {
     id: 'track-1',
@@ -8,8 +11,8 @@ export const INITIAL_TRACKS: Track[] = [
     artistId: 'artist-dog',
     album: 'DOG Single',
     playlistName: 'DOG',
-    coverUrl: '/src/assets/images/user_github_deboche.jpg',
-    artistBannerUrl: '/src/assets/images/user_github_deboche.jpg',
+    coverUrl: PROFILE_IMAGE_URL,
+    artistBannerUrl: PROFILE_IMAGE_URL,
     durationSeconds: 128, // 2:08
     explicit: true,
     liked: true,
@@ -23,8 +26,8 @@ export const SHLUZOV_ARTIST_INFO: ArtistInfo = {
   name: 'Shluzov',
   monthlyListeners: 348912,
   bio: 'Produtor independente de phonk, hyperpop e x-wave. Misturando nostalgia da internet dos anos 2000, batidas aceleradas e estética meme Y2K.',
-  avatarUrl: '/src/assets/images/album_cover_shluzov_1789856038008.jpg',
-  bannerUrl: '/src/assets/images/shluzov_artist_banner_1789856020934.jpg',
+  avatarUrl: PROFILE_IMAGE_URL,
+  bannerUrl: PROFILE_IMAGE_URL,
   isFollowing: false,
   popularTracks: [
     { id: 'track-1', title: 'на моём х', plays: '4.829.102', duration: '2:08' },
