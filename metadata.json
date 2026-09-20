@@ -1,0 +1,6 @@
+{
+  "name": "Spotify Player",
+  "description": "Visual replica and interactive music player based on Spotify's mobile layout, featuring custom audio playback, artist details, playlist management, and meme aesthetic overlays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
